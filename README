@@ -1,0 +1,14 @@
+# Loja Java + Angular
+
+## Backend
+1. Navegue para o diretório `backend`.
+2. Execute:
+   ```bash
+   mvn spring-boot:run
+
+
+## Frontend
+1. Vá até o diretório `loja-frotend`
+2. Execute:
+   ```Bash
+   ng serve 
