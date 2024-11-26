@@ -1,0 +1,10 @@
+<div *ngIf="clientes.length > 0; else noClientes">
+  <ul>
+    <li *ngFor="let cliente of clientes">
+      {{ cliente.nome }} - {{ cliente.endereco }} - {{ cliente.contato }}
+    </li>
+  </ul>
+</div>
+<ng-template #noClientes>
+  <p>Nenhum cliente encontrado.</p>
+</ng-template>
